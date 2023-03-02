@@ -1,0 +1,225 @@
+body{
+    background-image :url("https://www.hdwallpapers.in/thumbs/2021/plain_dark_navy_blue_hd_navy_blue-t2.jpg") ;
+   ;
+    padding-right: 17%;
+}
+#head{
+    
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    width: 100%;
+    padding-left: 35%;
+  height:100%;
+  background: linear-gradient(-45deg, #3f0a51, #c904e3, #ce03e0, #949011);
+    background-size: 400% 400%;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20%;
+    padding-bottom: 5%;
+   color:#ffff00 ;
+
+}
+
+
+
+.button-start {
+  appearance: none ;
+  background-color: #ffff00;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+  will-change: transform;
+  
+}
+
+.button-start:disabled {
+  pointer-events: none;
+}
+
+.button-start:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-start:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+#body2{
+    width: 20%;
+   padding-left: 10%;
+   padding-right: 0%;
+ height:100%;
+ background: linear-gradient(-45deg, #a40dd2, #5e0abe, #c10588, #670893);
+   background-size: 400% 400%;
+   animation: gradient 10s ease infinite;
+  
+}
+
+
+
+
+
+/* CSS */
+.button-dare {
+  appearance: none;
+  background-color: #a40dd2;
+  border: 2px solid #e302f8;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 60%;
+  will-change: transform;
+}
+
+.button-dare:disabled {
+  pointer-events: none;
+}
+
+.button-dare:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-dare:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+.button-truth {
+    appearance: none;
+    background-color: #c10588;
+    border: 2px solid #db06f3;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 60%;
+    will-change: transform;
+  }
+  
+  .button-truth:disabled {
+    pointer-events: none;
+  }
+  
+  .button-truth:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-truth:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+
+  p{
+    color: rgb(48, 59, 59);
+   font-size: 250%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(255, 255, 255);
+    width:90% ;
+  padding-left: 150%;
+  
+  }
+  
+  
+
+  #res{
+    font-family:inherit;
+    font-size:30px ;
+    color:#ffffff
+  }
+
+  .select {
+    width: 50%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  }
+
+  :root {
+    --select-border: #777;
+    --select-focus: rgb(225, 0, 255);
+    --select-arrow: var(--select-border);
+  }
+  h{
+    color: #ffffff;
+    font-family:inherit;
+    font-size: 30px;
+    padding-top: 10%;
+    width: 50%;
+  }
